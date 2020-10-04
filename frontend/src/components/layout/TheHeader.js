@@ -11,10 +11,10 @@ const TheHeader = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               <Nav.Link href='/cart'>
-                <i class='fas fa-shopping-cart' aria-hidden='true'></i> Cart
+                <i className='fas fa-shopping-cart' aria-hidden='true'></i> Cart
               </Nav.Link>
               <Nav.Link href='/login'>
-                <i class='fas fa-user' aria-hidden='true'></i> Sign In
+                <i className='fas fa-user' aria-hidden='true'></i> Sign In
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
