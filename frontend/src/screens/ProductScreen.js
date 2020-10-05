@@ -60,6 +60,12 @@ const ProductScreen = ({ match, history }) => {
               <ListGroup variant='flush'>
                 <ListGroup.Item>
                   <Row>
+                    <Col>Price: </Col>
+                    <Col>${product.price}</Col>
+                  </Row>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <Row>
                     <Col>Status:</Col>
                     <Col>
                       {product.countInStock > 0 ? "In Stock" : "Out of Stock"}
