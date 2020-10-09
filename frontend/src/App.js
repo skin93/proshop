@@ -1,19 +1,20 @@
-import React from "react"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import { Container } from "react-bootstrap"
-import TheFooter from "./components/layout/TheFooter"
-import TheHeader from "./components/layout/TheHeader"
-import HomeScreen from "./screens/HomeScreen"
-import ProductScreen from "./screens/ProductScreen"
-import CartScreen from "./screens/CartScreen"
-import LoginScreen from "./screens/LoginScreen"
-import RegisterScreen from "./screens/RegisterScreen"
-import ProfileScreen from "./screens/ProfileScreen"
-import ShippingScreen from "./screens/ShippingScreen"
-import PaymentScreen from "./screens/PaymentScreen"
-import PlaceOrderScreen from "./screens/PlaceOrderScreen"
-import OrderScreen from "./screens/OrderScreen"
+import { Container } from 'react-bootstrap'
+import TheFooter from './components/layout/TheFooter'
+import TheHeader from './components/layout/TheHeader'
+import HomeScreen from './screens/HomeScreen'
+import ProductScreen from './screens/ProductScreen'
+import CartScreen from './screens/CartScreen'
+import LoginScreen from './screens/LoginScreen'
+import RegisterScreen from './screens/RegisterScreen'
+import ProfileScreen from './screens/ProfileScreen'
+import ShippingScreen from './screens/ShippingScreen'
+import PaymentScreen from './screens/PaymentScreen'
+import PlaceOrderScreen from './screens/PlaceOrderScreen'
+import OrderScreen from './screens/OrderScreen'
+import UserListScreen from './screens/UserListScreen'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/profile' component={ProfileScreen} />
           <Route path='/product/:id' component={ProductScreen} />
           <Route path='/cart/:id?' component={CartScreen} />
+          <Route path='/admin/userlist' component={UserListScreen} />
         </Container>
       </main>
       <TheFooter />
