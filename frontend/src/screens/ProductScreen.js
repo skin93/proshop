@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Meta from '../components/meta/Meta'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
@@ -65,6 +66,7 @@ const ProductScreen = ({ match, history }) => {
         <BaseMessage varianbt='danger'>{error}</BaseMessage>
       ) : (
         <>
+          <Meta title={product.name} />
           <Row>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
