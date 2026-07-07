@@ -11,7 +11,3 @@ We can for instance:
 - list all products & orders
 - add reviews & ratings
 - search products with search box
-
-## [DEMO](https://proshop-t736.onrender.com/)
-
-App was deployed to render.com
