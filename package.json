@@ -28,18 +28,18 @@
   },
   "homepage": "https://github.com/skin93/proshop#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^3.0.3",
     "colors": "^1.4.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.7",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2"
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.3",
+    "morgan": "^1.12.1",
+    "multer": "^2.5.0"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^10.0.6",
+    "nodemon": "^3.1.14"
   }
 }
